@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#fff7f5">
+    <title>Madam Jii ♡</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <a href="#home" class="logo">Madam Jii <span>♡</span></a>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+
+    <nav id="nav">
+        <a href="#home">Home</a>
+        <a href="#memories">Memories</a>
+        <a href="#letter">Love Letter</a>
+        <a href="#surprise">Surprise</a>
+    </nav>
+</header>
+
+<main>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+
+        <p class="small-title">✦ MADE WITH LOVE, JUST FOR YOU ✦</p>
+
+        <h1>
+            For My Favourite
+            <em>Person.</em>
+        </h1>
+
+        <p class="description">
+            A little corner of the internet,
+            made especially to remind you
+            how special you are to me.
+        </p>
+
+        <a href="#letter" class="main-btn">
+            A Little Something For You ♡
+        </a>
+
+        <div class="scroll">
+            SCROLL A LITTLE
+            <span>↓</span>
+        </div>
+
+        <span class="floating-heart heart-one">♡</span>
+        <span class="floating-heart heart-two">♡</span>
+
+    </section>
+
+
+    <!-- INTRO SECTION -->
+    <section class="intro section">
+
+        <p class="small-title">TO MADAM JII</p>
+
+        <h2>
+            Some People Make<br>
+            Ordinary Days Feel
+            <em>Magical.</em>
+        </h2>
+
+        <p class="description">
+            And then there's you.
+
+            Thank you for being such a beautiful
+            part of my little world.
+
+            This website is small, but every
+            little part of it comes from my heart.
+        </p>
+
+    </section>
+
+
+    <!-- MEMORIES SECTION -->
+    <section class="memories section" id="memories">
+
+        <p class="small-title">LITTLE MOMENTS, BIG FEELINGS</p>
+
+        <h2>Our <em>Memories</em></h2>
+
+        <p class="description">
+            Some moments are too special
+            to be forgotten.
+        </p>
+
+        <div class="gallery">
+
+            <div class="memory-card">
+                <img src="images/IMG_1234.JPG" alt="Our memory">
+                <h3>Beautiful Moment ♡</h3>
+                <p>A memory close to my heart.</p>
+            </div>
+
+            <div class="memory-card">
+                <img src="images/IMG_123.jpeg" alt="Special memory">
+                <h3>Special Day ♡</h3>
+                <p>Some moments stay forever.</p>
+            </div>
+
+            <div class="memory-card">
+                <img src="images/IMG_12345.JPG" alt="Favourite memory">
+                <h3>My Favourite Person</h3>
+                <p>My favourite memories have you in them.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- QUOTE SECTION -->
+    <section class="quote-section">
+
+        <h2>
+            "In a world full of temporary things,
+            <br>
+            you feel like my favourite constant."
+        </h2>
+
+        <span>♡</span>
+
+    </section>
+
+
+    <!-- LOVE LETTER SECTION -->
+    <section class="letter-section section" id="letter">
+
+        <p class="small-title">A LITTLE NOTE FROM MY HEART</p>
+
+        <h2>A Letter, <em>For You.</em></h2>
+
+        <p class="description">
+            Some feelings are difficult to explain,
+            but I still wanted to try.
+        </p>
+
+        <button class="main-btn" id="openLetter">
+            Open My Letter ✉
+        </button>
+
+    </section>
+
+
+    <!-- SURPRISE SECTION -->
+    <section class="surprise-section section" id="surprise">
+
+        <div class="big-heart">♡</div>
+
+        <p class="small-title">ONE LITTLE SURPRISE</p>
+
+        <h2>Here's A Reminder...</h2>
+
+        <p class="description" id="surpriseMessage">
+            You are someone's favourite notification.
+            Mine, obviously! ♡
+        </p>
+
+        <button class="outline-btn" id="surpriseBtn">
+            Tap For A Surprise ✨
+        </button>
+
+    </section>
+
+</main>
+
+
+<!-- FOOTER -->
+<footer>
+    Made with lots of love
+    <span>♡</span>
+    For Madam Jii
+</footer>
+
+
+<!-- MUSIC BUTTON -->
+<button class="music-btn" id="musicBtn">
+    ♫ <span id="musicText">Play Music</span>
+</button>
+
+<audio id="bgMusic" loop preload="none">
+    <source src="music/for you.mp3" type="audio/mpeg">
+</audio>
+
+
+<!-- LOVE LETTER POPUP -->
+<div class="modal" id="letterModal">
+
+    <div class="modal-bg" id="modalBg"></div>
+
+    <div class="letter-box">
+
+        <button class="close-btn" id="closeLetter">×</button>
+
+        <p class="small-title">A LITTLE NOTE FROM MY HEART</p>
+
+        <h2>Dear Madam Jii,</h2>
+
+        <p>
+            I'm not always good at expressing everything
+            I feel, but I hope you know how important
+            you are to me.
+        </p>
+
+        <p>
+            You make my ordinary days brighter
+            just by being in them.
+
+            Thank you for your time, your smile,
+            your little conversations, and all those
+            moments that become special because
+            they are with you.
+        </p>
+
+        <p>
+            No big occasion is needed to celebrate you.
+
+            I simply wanted to make something that says:
+            I'm really glad you're in my life.
+        </p>
+
+        <p>
+            Love yoou soo much Tuki(Betu)
+        </p>
+
+        <p class="signature">
+            With all my love,<br>
+            Your Mota ♡
+        </p>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
