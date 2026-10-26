@@ -1,5 +1,5 @@
 
-// MOBILE MENU
+
 
 const menuBtn = document.getElementById("menuBtn");
 const nav = document.getElementById("nav");
@@ -20,7 +20,6 @@ nav.querySelectorAll("a").forEach(link => {
 });
 
 
-// LOVE LETTER
 
 const modal = document.getElementById("letterModal");
 
@@ -42,7 +41,6 @@ document.addEventListener("keydown", event => {
 });
 
 
-// SURPRISE MESSAGES
 
 const messages = [
     "Your smile makes my day beautiful. ♡",
@@ -67,7 +65,6 @@ document.getElementById("surpriseBtn").addEventListener("click", () => {
 });
 
 
-// FLOATING HEARTS
 
 function createHeart() {
 
